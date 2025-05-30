@@ -12,7 +12,7 @@ function App() {
 
 export default App;   // ← this is the “export” part
 
-function App() {
+function oldApp() {
   const [count, setCount] = useState(0)
 
   return (
@@ -41,4 +41,4 @@ function App() {
   )
 }
 
-export default App
+export default oldApp
