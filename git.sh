@@ -1,5 +1,3 @@
-git init
-git add .
-git commit -m "WWDC momentum dashboard"
-git remote add origin https://github.com/<you>/wwdc-dashboard.git
-git push -u origin main
+# inside your project root
+npx shadcn@latest init        # one-time project scaffold
+npx shadcn@latest add button card
